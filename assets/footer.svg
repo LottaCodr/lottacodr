@@ -1,0 +1,37 @@
+<svg width="1200" height="132" viewBox="0 0 1200 132" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Let's build something worth shipping">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="132" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0813"/>
+      <stop offset="0.5" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+    <linearGradient id="ftext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.4" stop-color="#60A5FA"/>
+      <stop offset="0.7" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="ftop" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F472B6" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#F472B6" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="0.86" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sans2 { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono2 { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="132" fill="url(#fbg)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#ftop)"/>
+  <ellipse cx="600" cy="120" rx="480" ry="110" fill="url(#fglow)"/>
+
+  <text class="sans2" x="600" y="66" font-size="27" font-weight="800" letter-spacing="-0.2" fill="url(#ftext)" text-anchor="middle">LET&#8217;S BUILD SOMETHING WORTH SHIPPING.</text>
+  <text class="mono2" x="600" y="98" font-size="13" letter-spacing="1.6" fill="#64748B" text-anchor="middle">github.com/LottaCodr &#183; lotaport.vercel.app</text>
+</svg>
